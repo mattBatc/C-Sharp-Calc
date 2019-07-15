@@ -1,0 +1,16 @@
+﻿Button Legend:
+clear = 11
+back = 12
+point = 13
+div = 14
+multiply = 15
+minus = 16
+add = 17
+equals = 18
+sign = 19
+
+Operation legend:
+div = 4
+multiply = 5
+minus = 6
+add = 7
