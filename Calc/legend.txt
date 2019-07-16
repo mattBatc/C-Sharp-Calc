@@ -8,6 +8,7 @@ minus = 16
 add = 17
 equals = 18
 sign = 19
+N/A = 99
 
 Operation legend:
 div = 4

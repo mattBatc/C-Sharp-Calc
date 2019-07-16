@@ -10,7 +10,7 @@
     <Grid>
         <TextBox x:Name="display" IsReadOnly="True" HorizontalAlignment="Left" Height="75" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="335"  FontSize="45"/>
         <Grid>
-            <Button Margin="10,101,271,390" Content="N/A" Click="Button_Click" />
+            <Button Margin="10,101,271,390" Content="N/A" Click="Button_Click" Tag="99" />
             <Button x:Name="clearBut"   Margin="95,101,186,390" Content="C" Click="Button_Click" Tag="11" />
             <Button x:Name="backBut"   Margin="180,101,101,390" Content="Back" Click="Button_Click" Tag="12" />
             <Button x:Name="pointBut"  Margin="180,441,101,50" Content="." Click="Button_Click" Tag="13" />

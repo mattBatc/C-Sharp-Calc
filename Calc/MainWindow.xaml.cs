@@ -138,6 +138,8 @@ namespace Calc
                         display.Text = "";
                         break;
                     case 12:
+                        if (display.Text.Length == 0)
+                            return;
                         String text = display.Text;
                         String updated = text.Substring(0, (text.Length - 1));
                         display.Text = updated;
@@ -148,6 +150,9 @@ namespace Calc
                     case 18:
                         cm.setSecondNumber(double.Parse(display.Text));
                         display.Text = (cm.calculate().ToString());
+                        break;
+                    case 19:
+                        display.Text = "-" + display.Text;
                         break;
 
                 }
